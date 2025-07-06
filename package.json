@@ -1,0 +1,34 @@
+{
+  "name": "@aesoper/biomejs-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "biome.json",
+  "files": ["biome.json"],
+  "scripts": {
+    "ci:publish": "pnpm publish -r"
+  },
+  "homepage": "https://github.com/aesoper101/biomejs-config#readme",
+  "bugs": "https://github.com/aesoper101/biomejs-config/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aesoper101/biomejs-config.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@10.6.5",
+  "devDependencies": {
+    "@biomejs/biome": "^2.0.6",
+    "@changesets/changelog-git": "^0.2.1",
+    "@changesets/changelog-github": "^0.5.1",
+    "@changesets/cli": "^2.29.5",
+    "lefthook": "^1.11.16"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "pnpm": {
+    "ignoredBuiltDependencies": ["lefthook"]
+  }
+}
