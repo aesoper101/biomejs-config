@@ -5,7 +5,8 @@
   "main": "biome.json",
   "files": ["biome.json"],
   "scripts": {
-    "ci:publish": "pnpm publish -r"
+    "pub:version": "pnpm changeset version",
+    "pub:release": "pnpm changeset publish"
   },
   "homepage": "https://github.com/aesoper101/biomejs-config#readme",
   "bugs": "https://github.com/aesoper101/biomejs-config/issues",
