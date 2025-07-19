@@ -1,5 +1,5 @@
 {
-  "$schema": "https://biomejs.dev/schemas/2.0.6/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.1.2/schema.json",
   "vcs": {
     "enabled": false,
     "clientKind": "git",
@@ -26,7 +26,17 @@
       "!**/dist",
       "!**/coverage",
       "!**/node_modules",
-      "!**/*.md"
+      "!**/*.md",
+      "!dist/**",
+      "!coverage/**",
+      "!node_modules/**",
+      "!build/**",
+      "!scripts/**",
+      "!**/dist/**",
+      "!**/coverage/**",
+      "!**/node_modules/**",
+      "!**/build/**",
+      "!**/scripts/**"
     ]
   },
   "linter": {
@@ -61,7 +71,17 @@
       "!**/dist",
       "!**/coverage",
       "!**/node_modules",
-      "!**/*.md"
+      "!**/*.md",
+      "!dist/**",
+      "!coverage/**",
+      "!node_modules/**",
+      "!build/**",
+      "!scripts/**",
+      "!**/dist/**",
+      "!**/coverage/**",
+      "!**/node_modules/**",
+      "!**/build/**",
+      "!**/scripts/**"
     ]
   },
   "javascript": {

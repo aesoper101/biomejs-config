@@ -1,5 +1,11 @@
 # @aesoper/biomejs-config
 
+## 1.0.2
+
+### Patch Changes
+
+- update biome version
+
 ## 1.0.1
 
 ### Patch Changes

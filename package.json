@@ -1,6 +1,6 @@
 {
   "name": "@aesoper/biomejs-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "biome.json",
   "files": ["biome.json"],
@@ -24,7 +24,7 @@
   "license": "MIT",
   "packageManager": "pnpm@10.6.5",
   "devDependencies": {
-    "@biomejs/biome": "^2.0.6",
+    "@biomejs/biome": "^2.1.2",
     "@changesets/changelog-git": "^0.2.1",
     "@changesets/changelog-github": "^0.5.1",
     "@changesets/cli": "^2.29.5",
