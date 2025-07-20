@@ -1,8 +1,11 @@
 {
   "name": "@aesoper/biomejs-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
-  "main": "biome.json",
+  "type": "module",
+  "exports": {
+    "./biome": "./biome.json"
+  },
   "files": ["biome.json"],
   "scripts": {
     "pub:changeset": "pnpm changeset",
